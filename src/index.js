@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux'
 import { createStore, applyMiddleware, combineReducers } from 'redux'
 import { createLogger } from 'redux-logger'
-import { thunk } from 'redux-thunk'
+import thunk from 'redux-thunk'
 import './index.css';
 import App from './containers/App'
 import { searchReducer, robotReducer } from './reducer'
@@ -20,4 +20,3 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
-

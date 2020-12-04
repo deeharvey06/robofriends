@@ -9,7 +9,7 @@ import './App.css';
 
 class App extends Component {
   componentDidMount() {
-    this.props.requestRobots();
+    this.props.onRequestRobot();
   }
 
   renderFilteredRobots = () => {
